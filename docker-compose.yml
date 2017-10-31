@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  dtl.mra.postgres:
+    image: postgres
+    container_name: dtl.mra.postgresDB
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: mra
+    ports:
+      - 5432:5432
+
+  dtl.mra.customers.api:
+    image: dtl.mra.customers.api
+    container_name: dtl.mra.customers.api
+    restart: always
+    build:
+      context: ./DTL.MRA.Customers.API
+      dockerfile: Dockerfile
+    links:
+      - dtl.mra.postgres
+
+  dtl.mra.meterreads.api:
+    image: dtl.mra.meterreads.api
+    container_name: dtl.mra.meterreads.api
+    restart: always
+    build:
+      context: ./DTL.MRA.MeterReads.API
+      dockerfile: Dockerfile
+    links:
+      - dtl.mra.postgres
+
+  dtl.mra.meters.api:
+    image: dtl.mra.meters.api
+    container_name: dtl.mra.meters.api
+    restart: always
+    build:
+      context: ./DTL.MRA.Meters.API
+      dockerfile: Dockerfile
+    links:
+      - dtl.mra.postgres

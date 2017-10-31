@@ -1,0 +1,11 @@
+/Users/juni/Projects/DTL/DTL.MRA/DTL.MRA.Customers.API/bin/Release/netcoreapp2.0/DTL.MRA.Customers.API.deps.json
+/Users/juni/Projects/DTL/DTL.MRA/DTL.MRA.Customers.API/bin/Release/netcoreapp2.0/DTL.MRA.Customers.API.runtimeconfig.json
+/Users/juni/Projects/DTL/DTL.MRA/DTL.MRA.Customers.API/bin/Release/netcoreapp2.0/DTL.MRA.Customers.API.runtimeconfig.dev.json
+/Users/juni/Projects/DTL/DTL.MRA/DTL.MRA.Customers.API/bin/Release/netcoreapp2.0/DTL.MRA.Customers.API.dll
+/Users/juni/Projects/DTL/DTL.MRA/DTL.MRA.Customers.API/bin/Release/netcoreapp2.0/DTL.MRA.Customers.API.pdb
+/Users/juni/Projects/DTL/DTL.MRA/DTL.MRA.Customers.API/obj/Release/netcoreapp2.0/DTL.MRA.Customers.API.csprojResolveAssemblyReference.cache
+/Users/juni/Projects/DTL/DTL.MRA/DTL.MRA.Customers.API/obj/Release/netcoreapp2.0/DTL.MRA.Customers.API.csproj.CoreCompileInputs.cache
+/Users/juni/Projects/DTL/DTL.MRA/DTL.MRA.Customers.API/obj/Release/netcoreapp2.0/DTL.MRA.Customers.API.AssemblyInfoInputs.cache
+/Users/juni/Projects/DTL/DTL.MRA/DTL.MRA.Customers.API/obj/Release/netcoreapp2.0/DTL.MRA.Customers.API.AssemblyInfo.cs
+/Users/juni/Projects/DTL/DTL.MRA/DTL.MRA.Customers.API/obj/Release/netcoreapp2.0/DTL.MRA.Customers.API.dll
+/Users/juni/Projects/DTL/DTL.MRA/DTL.MRA.Customers.API/obj/Release/netcoreapp2.0/DTL.MRA.Customers.API.pdb
